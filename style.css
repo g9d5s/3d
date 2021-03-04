@@ -1,0 +1,155 @@
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+  font-family: Arial;
+  font-size: 17px;
+  text-align: center;
+  background-image: url(./img/star.gif);
+ /* background-color: black; */
+}
+
+#myVideo {
+  position: fixed;
+  right: 0px;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position:fixed;
+  bottom: 0;
+  /* background: rgba(0, 0, 0, 0.123); */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 100px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: rgba(0, 0, 0, 0.644);
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  color: black;
+}
+img{
+  width: 300px;
+}
+
+.navbar {
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  background-color: #000000da;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+  .navbar-light .nav-item .nav-link  {
+    color: white;
+ 
+  }
+.carousel {
+  margin-top: 184px;s
+ display: flex: ;;
+ padding:10px;
+}
+  @media (min-width: 992px)
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: white;}
+
+
+    button{
+      background-color: rgb(255, 255, 255);
+      color:black;
+      border-radius: 9px;
+      padding: 30px,20px;
+
+
+  
+    }
+
+   .welcome{
+     font-size: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.671);
+    padding:150px;
+    text-align: center
+    
+   }
+   .welcome h1 {
+     font-size: 100px;
+   }
+   .welcome p {
+     font-size: 20px;
+   }
+.welcome.button{
+   padding: 19px;
+  }
+
+  .products{
+    padding: 0px;
+
+    background-color: rgba(0, 0, 0, 0.507);
+  }
+
+  .ser{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 200px;
+  align-items: center;
+  font-size: 30px;
+
+  
+}
+.articuloabout {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ddd;
+  padding-top: 90px;
+
+  
+}
+.articuloabout p{
+  background-color: rgba(0, 0, 0, 0);
+  color: #ddd;
+  padding-top: 90px;
+
+  
+}
+
+.id{
+  color: #ddd;
+  padding: 30%;
+display: flex
+
+;
+
+}
+
+.formulario{
+padding: 30px;
+border: solid;
+color: #ddd;
+background-color: black;
+}
+footer{
+  padding: 70px;
+  color: white;
+}
